@@ -1,4 +1,4 @@
-﻿using Garciss.Core.Data.Databases.UnitOfWork.Repository;
+﻿using Garciss.UnitOfWork.Repository;
 using Garciss.UnitOfWork.Repository.Interfaces;
 using Garciss.UnitOfWork.UnitOfWork.Interfaces;
 using Microsoft.EntityFrameworkCore;
