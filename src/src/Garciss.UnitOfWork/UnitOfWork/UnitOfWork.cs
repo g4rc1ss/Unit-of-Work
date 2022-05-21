@@ -1,9 +1,9 @@
 ﻿using Garciss.Core.Data.Databases.UnitOfWork.Repository;
-using Garciss.Core.Data.Databases.UnitOfWork.Repository.Interfaces;
-using Garciss.Core.Data.Databases.UnitOfWork.UnitOfWork.Interfaces;
+using Garciss.UnitOfWork.Repository.Interfaces;
+using Garciss.UnitOfWork.UnitOfWork.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
-namespace Garciss.Core.Data.Databases.UnitOfWork.UnitOfWork;
+namespace Garciss.UnitOfWork.UnitOfWork;
 
 internal class UnitOfWork<TContext> : IRepositoryFactory, IUnitOfWork<TContext> where TContext : DbContext, IDisposable
 {

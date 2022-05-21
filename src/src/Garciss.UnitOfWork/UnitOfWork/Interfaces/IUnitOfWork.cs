@@ -1,7 +1,7 @@
-﻿using Garciss.Core.Data.Databases.UnitOfWork.Repository.Interfaces;
+﻿using Garciss.UnitOfWork.Repository.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
-namespace Garciss.Core.Data.Databases.UnitOfWork.UnitOfWork.Interfaces;
+namespace Garciss.UnitOfWork.UnitOfWork.Interfaces;
 
 /// <summary>
 /// Defini los metodos de Unit Of Work

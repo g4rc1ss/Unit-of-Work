@@ -1,10 +1,10 @@
 ﻿using System.Linq.Expressions;
-using Garciss.Core.Data.Databases.UnitOfWork.Repository.Interfaces;
+using Garciss.UnitOfWork.Repository.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query;
 
 
-namespace Garciss.Core.Data.Databases.UnitOfWork.Repository;
+namespace Garciss.UnitOfWork.Repository;
 
 internal abstract class BaseRepository<T> : IReadRepository<T> where T : class
 {

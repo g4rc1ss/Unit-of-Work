@@ -1,10 +1,10 @@
-﻿using Garciss.Core.Data.Databases.UnitOfWork.Repository.Interfaces;
-using Garciss.Core.Data.Databases.UnitOfWork.UnitOfWork;
-using Garciss.Core.Data.Databases.UnitOfWork.UnitOfWork.Interfaces;
+﻿using Garciss.UnitOfWork.Repository.Interfaces;
+using Garciss.UnitOfWork.UnitOfWork;
+using Garciss.UnitOfWork.UnitOfWork.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Garciss.Core.Data.Databases.UnitOfWork.DependencyInjection;
+namespace Garciss.UnitOfWork.DependencyInjection;
 
 public static class UnitOfWorkServiceCollectionExtensions
 {

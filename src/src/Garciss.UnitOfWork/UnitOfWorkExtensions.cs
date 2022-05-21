@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Garciss.Core.Data.Databases.UnitOfWork
+namespace Garciss.UnitOfWork
 {
     /// <summary>
     /// 

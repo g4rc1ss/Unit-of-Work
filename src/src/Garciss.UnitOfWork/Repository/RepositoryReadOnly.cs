@@ -1,7 +1,7 @@
-﻿using Garciss.Core.Data.Databases.UnitOfWork.Repository.Interfaces;
+﻿using Garciss.UnitOfWork.Repository.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
-namespace Garciss.Core.Data.Databases.UnitOfWork.Repository;
+namespace Garciss.UnitOfWork.Repository;
 
 internal class RepositoryReadOnly<T> : BaseRepository<T>, IRepositoryReadOnly<T> where T : class
 {

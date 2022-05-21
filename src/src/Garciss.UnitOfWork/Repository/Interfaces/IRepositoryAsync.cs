@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query;
 
-namespace Garciss.Core.Data.Databases.UnitOfWork.Repository.Interfaces;
+namespace Garciss.UnitOfWork.Repository.Interfaces;
 
 /// <summary>
 /// Define los metodos asincronos de repositorio que añaden, modifican ,eliminan y buscan

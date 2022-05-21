@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query;
 
 
-namespace Garciss.Core.Data.Databases.UnitOfWork.Repository.Interfaces;
+namespace Garciss.UnitOfWork.Repository.Interfaces;
 
 /// <summary>
 /// Implementa los métodos de lectura del repositorio

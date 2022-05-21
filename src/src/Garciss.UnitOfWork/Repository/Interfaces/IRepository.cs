@@ -1,7 +1,7 @@
 ﻿using System.Linq.Expressions;
 
 
-namespace Garciss.Core.Data.Databases.UnitOfWork.Repository.Interfaces;
+namespace Garciss.UnitOfWork.Repository.Interfaces;
 
 /// <summary>
 /// Define los metodos de repositorio que añaden, modifican o eliminan
